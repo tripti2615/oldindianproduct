@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Product</title>
+
+   
+    <style>
+        body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: white;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+}
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding-top: 5px;   
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+.checked{
+    color: #ff9f43;
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+body{
+    background-image:url(Designer\(10\).jpg) ;
+}
+.buy-1{
+    background: #000000;
+}
+.buy-2{
+    background: #000000;
+}
+.buy-3{
+    background: #0b0b0b;
+}
+.buy-4{
+    background: #000000;
+}
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="gallery">
+
+     <div class="content">
+        <img src="silksaaree.jpg">
+        <h3>Silk Saree</h3>
+        <p>Prestegeous hand made saree</p>
+        <h6>₹9999.00/-</h6>
+        
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-1">Buy Now</button>
+    </div>    
+        
+    <div class="content">
+        <img src="makhana.jpg">
+        <h3>Makhana</h3>
+        <p>Dry Fruit for diet</p>
+        <h6>₹99.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div> 
+    <div class="content">
+        <img src="banarashi.jpg">
+        <h3>Banarshi Saree</h3>
+        <p>Handicrafted trasure of banaras</p>
+        <h6>₹6999.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div>   
+    
+    <div class="content">
+        <img src="chess.jpg">
+        <h3>Chess Board</h3>
+        <p>Wooden chess board accepted by the world</p>
+        <h6>₹1999.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div>   
+
+
+    <div class="content">
+        <img src="russianshoes.jpg">
+        <h3>Military Shoes</h3>
+        <p>Shoes accepted by Russian army from Bihar</p>
+        <h6>₹4999.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div>   
+
+
+
+    <div class="content">
+        <img src="desighee.jpg">
+        <h3>Desi Ghee</h3>
+        <p>Home made Desi Ghee</p>
+        <h6>₹1399.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div>   
+
+    <div class="content">
+        <img src="madhubani-art.jpg">
+        <h3>Madhubani Painting</h3>
+        <p>Famous Painting of Madhubani. </p>
+        <h6>₹9999.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div>   
+
+
+    <div class="content">
+        <img src="wooden statue.jpg">
+        <h3>Handicraft statue</h3>
+        <p>Handmade statues a treasuer of our india</p>
+        <h6>₹999.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div>   
+
+
+    <div class="content">
+        <img src="Bamboo_Crafts.jpg">
+        <h3>Bamboo Work</h3>
+        <p>Decorative item</p>
+        <h6>₹599.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div>   
+
+
+    <div class="content">
+        <img src="pottery.jpg">
+        <h3>Pots</h3>
+        <p>Pots for cool Water</p>
+       <h6>₹299.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div>   
+
+    <div class="content">
+        <img src="Tikuli-2.jpg">
+        <h3>Tikuli work</h3>
+        <p>Handicraftproduct made from broken glass.</p>
+        <h6>₹899.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-3">Buy Now</button>
+    </div>    
+    <div class="content">
+        <img src="patna-kalam.jpg">
+        <h3>Patna Kalam</h3>
+        <p>Beautiful hand made painting.</p>
+        <h6>₹999.00/-</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-4">Buy Now</button>
+    </div>  
+    <div class="gallery">
+
+        <div class="content">
+           <img src="silkkurtee.jpg">
+           <h3>Silk Kurtee</h3>
+           <p>Hand Hoven Silk Kurtee</p>
+           <h6>₹8920.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-1">Buy Now</button>
+       </div>    
+           
+       <div class="content">
+           <img src="chanderi.jpg">
+           <h3>Chanderi cotton suit</h3>
+           <p>Handwoven Chanderi cotton suit</p>
+           <h6>₹2999.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-2">Buy Now</button>
+       </div>   
+       <div class="content">
+           <img src="pillow.avif">
+           <h3>Velvet pillow cover</h3>
+           <p>Handmade Pillow velvet cover.</p>
+           <h6>₹990.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-3">Buy Now</button>
+       </div>    
+       <div class="content">
+           <img src="plate.jpg">
+           <h3>Leaf Plate</h3>
+           <p>Natural leaf Plate</p>
+           <h6>₹40.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-4">Buy Now</button>
+       </div>    
+       <div class="content">
+           <img src="bowl.jpg">
+           <h3>Leaf Bowl</h3>
+           <p>Natural Leaf Bowl.</p>
+           <h6>₹20.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-4">Buy Now</button>
+       </div>    
+       <div class="content">
+           <img src="rajasthan.jpg">
+           <h3>Rajasthan Toy</h3>
+           <p>Handmade Rajasthani toy</p>
+           <h6>₹1200.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-4">Buy Now</button>
+       </div>    
+       <div class="content">
+           <img src="pashmina.jpg">
+           <h3>Pashmina Shawl</h3>
+           <p>Fine wool Pashmina Shawl</p>
+           <h6>₹2000.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-4">Buy Now</button>
+       </div>    
+       <div class="content">
+           <img src="shell.jpg">
+           <h3>Sea Shell</h3>
+           <p>Shell Found Deep In the sea</p>
+           <h6>₹150.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-4">Buy Now</button>
+       </div>    
+       <div class="content">
+           <img src="brass.jpg">
+           <h3>Brass handicraft Bowl</h3>
+           <p>Bowl made up of brass.</p>
+           <h6>₹600.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-4">Buy Now</button>
+       </div>    
+       <div class="content">
+           <img src="zardozi.jpg">
+           <h3>Zardozi Art</h3>
+           <p>Zardozi art full handmade.</p>
+           <h6>₹17000.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-4">Buy Now</button>
+       </div>    
+       <div class="content">
+           <img src="carpet.jpg">
+           <h3>Weaved Carpet</h3>
+           <p>Waved Carpet famous in North India</p>
+           <h6>₹8000.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-4">Buy Now</button>
+       </div>    
+       <div class="content">
+           <img src="DHOKARA.avif">
+           <h3>Dhokara Art</h3>
+           <p>One of the oldest art of our Country</p>
+           <h6>₹7000.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-4">Buy Now</button>
+       </div>    
+        
+       </div>
+       <div class="gallery">
+
+        <div class="content">
+           <img src="ganjifa.jpg">
+           <h3>Ganjifa Painting</h3>
+           <p>Painting Which reminds of our Civilization.</p>
+           <h6>₹2449.00/-</h6>
+           
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-1">Buy Now</button>
+       </div>    
+           
+       <div class="content">
+           <img src="woodentray.avif">
+           <h3>Handicraft Wooden Tray</h3>
+           <p>Enhanced Flavor</p>
+           <h6>₹2999.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-2">Buy Now</button>
+       </div> 
+       <div class="content">
+           <img src="gonda.avif">
+           <h3>Gonda Tiger</h3>
+           <p>Gonda art represent our national animal,</p>
+           <h6>₹1999.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-2">Buy Now</button>
+       </div>   
+       
+       <div class="content">
+           <img src="bag.avif">
+           <h3>Handcrafted hand bag</h3>
+           <p>Handcrafted Jawaja Leather Tote Bag with Rug Patch </p>
+           <h6>₹1799.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-2">Buy Now</button>
+       </div>   
+   
+   
+       <div class="content">
+           <img src="box.avif">
+           <h3>Kashmiri Box</h3>
+           <p>The Shahi Collection. Exclusive, Fine Kashmiri Art Utility Box</p>
+           <h6>₹3499.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-2">Buy Now</button>
+       </div>   
+   
+   
+   
+       <div class="content">
+           <img src="bull.jpg">
+           <h3>Mohenjodaro</h3>
+           <p>Ancient Civilization</p>
+           <h6>₹1949.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-2">Buy Now</button>
+       </div>   
+   
+       <div class="content">
+           <img src="puzzle.jpg">
+           <h3>Handicraft Wooden Puzzle</h3>
+           <p>Famous art of Uttar Pradesh</p>
+           <h6>₹1499.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-2">Buy Now</button>
+       </div>   
+   
+   
+       <div class="content">
+           <img src="boat.jpg">
+           <h3>Dhokra Craft</h3>
+           <p>Dhokra Craft Boat</p>
+           <h6>₹4999.00/-</h6>
+           <ul>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star checked"></i></li>
+               <li><i class="fa fa-star"></i></li>
+           </ul>
+           <button class="buy-2">Buy Now</button>
+       </div>        
+       </div> 
+</body>
+</html>
